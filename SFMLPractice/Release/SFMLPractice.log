@@ -1,0 +1,52 @@
+﻿  Bullet.cpp
+  Character.cpp
+  CharacterContainer.cpp
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\CharacterContainer.cpp(72,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\CharacterContainer.cpp(107,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\CharacterContainer.cpp(135,23): warning C4018: '<': signed/unsigned mismatch
+  Game.cpp
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(43,55): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,77): warning C4244:         with
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,77): warning C4244:         [
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,77): warning C4244:             T=unsigned int
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,77): warning C4244:         ]
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,77): warning C4244:         and
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,77): warning C4244:         [
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,77): warning C4244:             T=float
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,77): warning C4244:         ]
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,53): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,53): warning C4244:         with
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,53): warning C4244:         [
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,53): warning C4244:             T=unsigned int
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,53): warning C4244:         ]
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,53): warning C4244:         and
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,53): warning C4244:         [
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,53): warning C4244:             T=float
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(46,53): warning C4244:         ]
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(53,57): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(174,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(207,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(249,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(266,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(343,19): warning C4244: '=': conversion from 'T' to 'float', possible loss of data
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(343,19): warning C4244:         with
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(343,19): warning C4244:         [
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(343,19): warning C4244:             T=unsigned int
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(343,19): warning C4244:         ]
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(374,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(489,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(565,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(583,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(599,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(621,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Game.cpp(641,24): warning C4018: '<': signed/unsigned mismatch
+  Main.cpp
+  Misc.cpp
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Misc.cpp(77,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Ship.cpp
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Ship.cpp(90,20): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Character.cpp(149): warning C4723: potential divide by 0
+  Finished generating code
+  SFMLPractice.vcxproj -> C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Release\SFMLPractice.exe
