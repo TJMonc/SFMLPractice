@@ -8,7 +8,7 @@ Game::Bullet::Bullet(Ship* aSource, RenderWindow* aWindow) {
 	this->shape.setPosition(aSource->getCenter());
 	this->shape.setFillColor(Color::Red);
 	this->setWindow(aWindow);
-
+	this->getShape();
 
 }
 
