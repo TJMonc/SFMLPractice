@@ -1,0 +1,5 @@
+Astroid hitBox multiplication factor = 0.3
+
+Ship hitBox multiplication = 0.5
+
+Frame rate calc = (Actual Frame Rate) * (target damage/effect) / (30)
