@@ -3,7 +3,7 @@
 
 
 Game::Bullet::Bullet(Ship* aSource, RenderWindow* aWindow) {
-	this->source = aSource;
+	setSource(aSource);
 	this->shape.setSize(Vector2f(10.f, 10.f));
 	this->shape.setPosition(aSource->getCenter());
 	this->shape.setFillColor(Color::Red);
