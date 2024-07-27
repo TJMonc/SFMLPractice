@@ -22,6 +22,21 @@ Vector2f operator/(Vector2f vect1, Vector2f vect2) {
 	return Vector2f(vect1.x / vect2.x, vect1.y / vect2.y);
 
 }
+std::unique_ptr<std::ifstream> openReadFile(const std::string filePath) {
+	std::unique_ptr<std::ifstream> file = std::make_unique<std::ifstream>(filePath, std::ios::in);
+	std::string fileLine;
+	try {
+		if (!file->is_open()) {
+			throw FileError(filePath);
+		}
+	}
+	catch (FileError& e) {
+		std::cerr << e.what();
+		throw FileError(filePath);
+	}
+
+	return file;
+}
 
 //Gen Function def.
 void Game::loadSprite(sf::Texture& texture, std::string path) {	//Condense the sprite checking and loading into one function.

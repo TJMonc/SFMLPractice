@@ -146,7 +146,8 @@ void Game::Character::move(float aXMovement, float aYMovement) {
 	this->xMovement = aXMovement;
 	this->yMovement = aYMovement;
 	if (isInitialized) {
-		Vector2f realMove = Vector2f(window->getSize()) / Vector2f(RES_1080_X / xMovement, RES_1080_Y / yMovement);
+		Vector2f realMove = Vector2f(window->getSize()) / Vector2f(RES_1080_X, RES_1080_Y);
+		realMove = realMove * Vector2f{xMovement, yMovement};
 		this->sprite.move(realMove * 0.5f);
 		this->hitBox.setPosition(this->sprite.getPosition());
 
@@ -160,7 +161,8 @@ void Game::Character::move(Vector2f movement) {
 
 void Game::Character::move() {
 	if (isInitialized) {
-		Vector2f realMove = Vector2f(window->getSize()) / Vector2f(RES_1080_X / xMovement, RES_1080_Y / yMovement);
+		Vector2f realMove = Vector2f(window->getSize()) / Vector2f(RES_1080_X, RES_1080_Y);
+		realMove = realMove * Vector2f(xMovement, yMovement);
 		this->sprite.move(realMove * 0.5f);
 		this->hitBox.setPosition(this->sprite.getPosition());
 	}

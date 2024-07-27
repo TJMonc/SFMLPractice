@@ -6,8 +6,10 @@
 #include <ctime>
 #include <string>
 #include <fstream>
+#include <sstream>
 #include <math.h>
 #include <memory>
+#include <unordered_map>
 #include <SFML/System.hpp>
 #include <SFML/Audio.hpp>
 #include <SFML/Graphics.hpp>
@@ -15,11 +17,17 @@
 #include <SFML/Window.hpp>
 #include <SFML/OpenGL.hpp>
 
+
 #define RES_1080 (1920, 1080)
 #define RES_1080_X (1920)
 #define RES_1080_Y (1080)
 
+#define RES_768 (1366, 768)
+#define RES_768_X (1366)
+#define RES_768_Y (768)
+
 using namespace sf;
+
 
 class FileError :public std::exception {
 private:
@@ -40,14 +48,19 @@ public:
 	}
 };
 
+
 Vector2f operator*(float mult, Vector2f vector);
 Vector2f operator/(float mult, Vector2f vector);
 
 Vector2f operator*(Vector2f vect1, Vector2f vect2);
 Vector2f operator/(Vector2f vect1, Vector2f vect2);
 
+std::unique_ptr<std::ifstream> openReadFile(const std::string filePath);
+
+template <typename T> void writeVectToFile(const std::string filePath, const std::vector<std::vector<T>>& aVector);
+
 namespace Game {
-	
+
 	//File Paths
 	const struct FontPaths {
 		static std::string blackLivesFont;
