@@ -38,6 +38,24 @@ std::unique_ptr<std::ifstream> openReadFile(const std::string filePath) {
 	return file;
 }
 
+template <typename T> void write3dVectToFile(const std::string filePath, const std::vector<std::vector<T>>& aVector, const int aDivide) {
+	std::ofstream ofile(filePath, std::ios::app);
+	for (int i = 0; i < aVector.size(); i++) {
+		if (i % aDivide == 0) {
+			ofile << "\n";
+		}
+		for (int j = 0; j < aVector[i].size(); j++) {
+			ofile << aVector[i][j];
+			if (!(j == aVector[i].size() - 1)) {
+				ofile << ",";
+			}
+		}
+		ofile << "\n";
+
+	}
+	ofile.close();
+}
+
 //Gen Function def.
 void Game::loadSprite(sf::Texture& texture, std::string path) {	//Condense the sprite checking and loading into one function.
 

@@ -57,7 +57,7 @@ Vector2f operator/(Vector2f vect1, Vector2f vect2);
 
 std::unique_ptr<std::ifstream> openReadFile(const std::string filePath);
 
-template <typename T> void writeVectToFile(const std::string filePath, const std::vector<std::vector<T>>& aVector);
+template <typename T> void write3dVectToFile(const std::string filePath, const std::vector<std::vector<T>>& aVector, const int aDivide);
 
 namespace Game {
 
