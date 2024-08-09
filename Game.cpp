@@ -3,7 +3,7 @@
 
 
 Game::Game::Game(){
-
+	srand(time(NULL));
 	window->setFramerateLimit(60);
 	initPlayer();
 	initEnemy();

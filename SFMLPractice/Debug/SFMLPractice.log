@@ -1,10 +1,10 @@
 ﻿  Bullet.cpp
-  Character.cpp
   CharacterContainer.cpp
+  Game.cpp
 C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\CharacterContainer.cpp(72,24): warning C4018: '<': signed/unsigned mismatch
 C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\CharacterContainer.cpp(107,24): warning C4018: '<': signed/unsigned mismatch
 C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\CharacterContainer.cpp(135,23): warning C4018: '<': signed/unsigned mismatch
-  Game.cpp
+C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Game.cpp(6,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Game.cpp(43,55): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
 C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Game.cpp(46,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
 C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Game.cpp(46,77): warning C4244:         with
@@ -49,6 +49,4 @@ C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Ship.cpp(90,20): war
   Generating Code...
 C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Ship.cpp(83,1): warning C4717: 'Game::Ship::setPosition': recursive on all control paths, function will cause runtime stack overflow
 C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\CharacterContainer.cpp(83,1): warning C4715: 'Game::CharacterContainer::initialize': not all control paths return a value
-  LINK : C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Debug\SFMLPractice.exe not found or not built by the last incremental link; performing full link
-sfml-main-d.lib(MainWin32.obj) : warning LNK4099: PDB '' was not found with 'sfml-main-d.lib(MainWin32.obj)' or at ''; linking object as if no debug info
   SFMLPractice.vcxproj -> C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Debug\SFMLPractice.exe

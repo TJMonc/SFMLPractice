@@ -22,7 +22,7 @@ Vector2f operator/(Vector2f vect1, Vector2f vect2) {
 	return Vector2f(vect1.x / vect2.x, vect1.y / vect2.y);
 
 }
-std::unique_ptr<std::ifstream> openReadFile(const std::string filePath) {
+std::unique_ptr<std::ifstream>  openReadFile(const std::string filePath) {
 	std::unique_ptr<std::ifstream> file = std::make_unique<std::ifstream>(filePath, std::ios::in);
 	std::string fileLine;
 	try {
