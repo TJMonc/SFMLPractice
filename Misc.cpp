@@ -107,7 +107,7 @@ bool Game::isOutOfBoundsY(Transformable& shape, RenderWindow& window) {
 
 Vector2f Game::getVectors(const Shape& player, const Vector2f playerCenter) {
 	float actualAngle = -1.f * (90.f - player.getRotation());
-	float actualAngleRad = actualAngle * M_PI / 180;
+	float actualAngleRad = actualAngle * (float)M_PI / 180.f;
 
 	float yComp = sinf(actualAngleRad);
 	float xComp = cosf(actualAngleRad);
