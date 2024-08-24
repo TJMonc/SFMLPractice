@@ -9,6 +9,7 @@
 #include <sstream>
 #include <math.h>
 #include <memory>
+#include <Windows.h>
 #include <unordered_map>
 #include <SFML/System.hpp>
 #include <SFML/Audio.hpp>
@@ -62,19 +63,19 @@ template <typename T> void write3dVectToFile(const std::string filePath, const s
 namespace Game {
 
 	//File Paths
-	const struct FontPaths {
+	struct FontPaths {
 		static std::string blackLivesFont;
 		static std::string BrowoodFont;
 
 	};
 
-	const struct SpritePaths {
+	struct SpritePaths {
 		static std::string playerShip;
 		static std::string asteroid;
 		static std::string engine;
 	};
 
-	const struct SoundPaths {
+	struct SoundPaths {
 		static std::string playerHit;
 		static std::string playerDead;
 		static std::string asteroidDestroyed;
@@ -82,7 +83,7 @@ namespace Game {
 
 	};
 
-	const struct MusicPaths {
+	struct MusicPaths {
 		static std::string revolution;
 		static std::string badTime;
 		static std::string encounter;

@@ -1,9 +1,5 @@
-﻿  Bullet.cpp
-  CharacterContainer.cpp
-C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\CharacterContainer.cpp(72,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\CharacterContainer.cpp(107,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\CharacterContainer.cpp(135,23): warning C4018: '<': signed/unsigned mismatch
-  Game.cpp
+﻿  Game.cpp
+C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Game.cpp(7,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Game.cpp(43,55): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
 C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Game.cpp(46,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
 C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Game.cpp(46,77): warning C4244:         with
@@ -40,9 +36,6 @@ C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Game.cpp(583,23): wa
 C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Game.cpp(599,23): warning C4018: '<': signed/unsigned mismatch
 C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Game.cpp(621,23): warning C4018: '<': signed/unsigned mismatch
 C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Game.cpp(641,24): warning C4018: '<': signed/unsigned mismatch
-  Main.cpp
-  Ship.cpp
-C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Ship.cpp(90,20): warning C4018: '<': signed/unsigned mismatch
   Generating code
   Finished generating code
   SFMLPractice.vcxproj -> C:\Users\terra\Downloads\Projects\repos\TJMonc\SFMLPractice\Release\SFMLPractice.exe
