@@ -125,7 +125,7 @@ Vector2f Game::getVectors(const Vector2f playerCenter, const Vector2f otherCente
 
 
 
-	float Mag = std::powf(powf(xVect, 2) + std::powf(yVect, 2), 0.5f);
+	float Mag = std::pow(pow(xVect, 2) + std::pow(yVect, 2), 0.5f);
 
 	return Vector2f(xVect / Mag, yVect / Mag);
 }

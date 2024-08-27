@@ -9,14 +9,15 @@
 #include <sstream>
 #include <math.h>
 #include <memory>
-#include <Windows.h>
+#include <thread>
+#include <vector>
+#include <array>
 #include <unordered_map>
 #include <SFML/System.hpp>
 #include <SFML/Audio.hpp>
 #include <SFML/Graphics.hpp>
 #include <SFML/Network.hpp>
 #include <SFML/Window.hpp>
-#include <SFML/OpenGL.hpp>
 
 
 #define RES_1080 (1920, 1080)

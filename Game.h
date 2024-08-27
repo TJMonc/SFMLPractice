@@ -4,10 +4,7 @@
 #include "Bullet.h"
 
 namespace Game{
-
-
 	class Game {
-
 	public:
 		std::shared_ptr<RenderWindow> window = std::make_shared<RenderWindow>(VideoMode(1920, 1080), "SFML Practice 2", Style::Fullscreen);
 
