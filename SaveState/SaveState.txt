@@ -1,2 +1,0 @@
-HighScore:44
-EnemiesDestroyed:1053
