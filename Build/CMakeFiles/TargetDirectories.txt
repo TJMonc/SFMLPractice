@@ -1,0 +1,3 @@
+C:/Users/terra/Downloads/Projects/repos/SFMLPractice/Build/CMakeFiles/SFMLPractice.dir
+C:/Users/terra/Downloads/Projects/repos/SFMLPractice/Build/CMakeFiles/edit_cache.dir
+C:/Users/terra/Downloads/Projects/repos/SFMLPractice/Build/CMakeFiles/rebuild_cache.dir
