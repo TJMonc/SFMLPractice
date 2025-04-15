@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/bin/SFMLPractice.exe"
-  "C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/bin/SFMLPractice.exe.manifest"
-  "C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/bin/SFMLPractice.pdb"
-  "C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/bin/libSFMLPractice.dll.a"
+  "C:/Users/terra/Downloads/Projects/repos/SFMLPractice/bin/SFMLPractice.exe"
+  "C:/Users/terra/Downloads/Projects/repos/SFMLPractice/bin/SFMLPractice.exe.manifest"
+  "C:/Users/terra/Downloads/Projects/repos/SFMLPractice/bin/SFMLPractice.pdb"
+  "C:/Users/terra/Downloads/Projects/repos/SFMLPractice/bin/libSFMLPractice.dll.a"
   "CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.obj"
   "CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.obj.d"
   "CMakeFiles/SFMLPractice.dir/src/Character.cpp.obj"

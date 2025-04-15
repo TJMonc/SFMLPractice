@@ -683,7 +683,8 @@ void Game::Game::update() {
 				break;
 			}
 			if (sf::Keyboard::isKeyPressed(Keyboard::Escape)) {
-				anEvent.type = Event::Closed;
+				saveGame(miscInfo->highScore, miscInfo->highEnemiesDestroyed, "SaveState/SaveState.txt");
+				window->close();
 			}
 		}
 		displayBaseHUD();

@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/SFMLPractice.dir/includes_CXX.rsp
 
-CXX_FLAGS =   -std=c++20
+CXX_FLAGS = -std=gnu++20   -std=c++20
 

@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\msys64\mingw64\bin\cmake.exe
+CMAKE_COMMAND = C:\msys64\ucrt64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\msys64\mingw64\bin\cmake.exe -E rm -f
+RM = C:\msys64\ucrt64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice
+CMAKE_SOURCE_DIR = C:\Users\terra\Downloads\Projects\repos\SFMLPractice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\Build
+CMAKE_BINARY_DIR = C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SFMLPractice.dir/depend.make
@@ -70,108 +70,108 @@ include CMakeFiles/SFMLPractice.dir/flags.make
 
 CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.obj: CMakeFiles/SFMLPractice.dir/flags.make
 CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.obj: CMakeFiles/SFMLPractice.dir/includes_CXX.rsp
-CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.obj: C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/src/Bullet.cpp
+CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.obj: C:/Users/terra/Downloads/Projects/repos/SFMLPractice/src/Bullet.cpp
 CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.obj: CMakeFiles/SFMLPractice.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.obj"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.obj -MF CMakeFiles\SFMLPractice.dir\src\Bullet.cpp.obj.d -o CMakeFiles\SFMLPractice.dir\src\Bullet.cpp.obj -c C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Bullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.obj"
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.obj -MF CMakeFiles\SFMLPractice.dir\src\Bullet.cpp.obj.d -o CMakeFiles\SFMLPractice.dir\src\Bullet.cpp.obj -c C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Bullet.cpp
 
 CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.i"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Bullet.cpp > CMakeFiles\SFMLPractice.dir\src\Bullet.cpp.i
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Bullet.cpp > CMakeFiles\SFMLPractice.dir\src\Bullet.cpp.i
 
 CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.s"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Bullet.cpp -o CMakeFiles\SFMLPractice.dir\src\Bullet.cpp.s
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Bullet.cpp -o CMakeFiles\SFMLPractice.dir\src\Bullet.cpp.s
 
 CMakeFiles/SFMLPractice.dir/src/Character.cpp.obj: CMakeFiles/SFMLPractice.dir/flags.make
 CMakeFiles/SFMLPractice.dir/src/Character.cpp.obj: CMakeFiles/SFMLPractice.dir/includes_CXX.rsp
-CMakeFiles/SFMLPractice.dir/src/Character.cpp.obj: C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/src/Character.cpp
+CMakeFiles/SFMLPractice.dir/src/Character.cpp.obj: C:/Users/terra/Downloads/Projects/repos/SFMLPractice/src/Character.cpp
 CMakeFiles/SFMLPractice.dir/src/Character.cpp.obj: CMakeFiles/SFMLPractice.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SFMLPractice.dir/src/Character.cpp.obj"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLPractice.dir/src/Character.cpp.obj -MF CMakeFiles\SFMLPractice.dir\src\Character.cpp.obj.d -o CMakeFiles\SFMLPractice.dir\src\Character.cpp.obj -c C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Character.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SFMLPractice.dir/src/Character.cpp.obj"
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLPractice.dir/src/Character.cpp.obj -MF CMakeFiles\SFMLPractice.dir\src\Character.cpp.obj.d -o CMakeFiles\SFMLPractice.dir\src\Character.cpp.obj -c C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Character.cpp
 
 CMakeFiles/SFMLPractice.dir/src/Character.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SFMLPractice.dir/src/Character.cpp.i"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Character.cpp > CMakeFiles\SFMLPractice.dir\src\Character.cpp.i
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Character.cpp > CMakeFiles\SFMLPractice.dir\src\Character.cpp.i
 
 CMakeFiles/SFMLPractice.dir/src/Character.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SFMLPractice.dir/src/Character.cpp.s"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Character.cpp -o CMakeFiles\SFMLPractice.dir\src\Character.cpp.s
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Character.cpp -o CMakeFiles\SFMLPractice.dir\src\Character.cpp.s
 
 CMakeFiles/SFMLPractice.dir/src/CharacterContainer.cpp.obj: CMakeFiles/SFMLPractice.dir/flags.make
 CMakeFiles/SFMLPractice.dir/src/CharacterContainer.cpp.obj: CMakeFiles/SFMLPractice.dir/includes_CXX.rsp
-CMakeFiles/SFMLPractice.dir/src/CharacterContainer.cpp.obj: C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/src/CharacterContainer.cpp
+CMakeFiles/SFMLPractice.dir/src/CharacterContainer.cpp.obj: C:/Users/terra/Downloads/Projects/repos/SFMLPractice/src/CharacterContainer.cpp
 CMakeFiles/SFMLPractice.dir/src/CharacterContainer.cpp.obj: CMakeFiles/SFMLPractice.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SFMLPractice.dir/src/CharacterContainer.cpp.obj"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLPractice.dir/src/CharacterContainer.cpp.obj -MF CMakeFiles\SFMLPractice.dir\src\CharacterContainer.cpp.obj.d -o CMakeFiles\SFMLPractice.dir\src\CharacterContainer.cpp.obj -c C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\CharacterContainer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SFMLPractice.dir/src/CharacterContainer.cpp.obj"
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLPractice.dir/src/CharacterContainer.cpp.obj -MF CMakeFiles\SFMLPractice.dir\src\CharacterContainer.cpp.obj.d -o CMakeFiles\SFMLPractice.dir\src\CharacterContainer.cpp.obj -c C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\CharacterContainer.cpp
 
 CMakeFiles/SFMLPractice.dir/src/CharacterContainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SFMLPractice.dir/src/CharacterContainer.cpp.i"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\CharacterContainer.cpp > CMakeFiles\SFMLPractice.dir\src\CharacterContainer.cpp.i
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\CharacterContainer.cpp > CMakeFiles\SFMLPractice.dir\src\CharacterContainer.cpp.i
 
 CMakeFiles/SFMLPractice.dir/src/CharacterContainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SFMLPractice.dir/src/CharacterContainer.cpp.s"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\CharacterContainer.cpp -o CMakeFiles\SFMLPractice.dir\src\CharacterContainer.cpp.s
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\CharacterContainer.cpp -o CMakeFiles\SFMLPractice.dir\src\CharacterContainer.cpp.s
 
 CMakeFiles/SFMLPractice.dir/src/Game.cpp.obj: CMakeFiles/SFMLPractice.dir/flags.make
 CMakeFiles/SFMLPractice.dir/src/Game.cpp.obj: CMakeFiles/SFMLPractice.dir/includes_CXX.rsp
-CMakeFiles/SFMLPractice.dir/src/Game.cpp.obj: C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/src/Game.cpp
+CMakeFiles/SFMLPractice.dir/src/Game.cpp.obj: C:/Users/terra/Downloads/Projects/repos/SFMLPractice/src/Game.cpp
 CMakeFiles/SFMLPractice.dir/src/Game.cpp.obj: CMakeFiles/SFMLPractice.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SFMLPractice.dir/src/Game.cpp.obj"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLPractice.dir/src/Game.cpp.obj -MF CMakeFiles\SFMLPractice.dir\src\Game.cpp.obj.d -o CMakeFiles\SFMLPractice.dir\src\Game.cpp.obj -c C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SFMLPractice.dir/src/Game.cpp.obj"
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLPractice.dir/src/Game.cpp.obj -MF CMakeFiles\SFMLPractice.dir\src\Game.cpp.obj.d -o CMakeFiles\SFMLPractice.dir\src\Game.cpp.obj -c C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Game.cpp
 
 CMakeFiles/SFMLPractice.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SFMLPractice.dir/src/Game.cpp.i"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Game.cpp > CMakeFiles\SFMLPractice.dir\src\Game.cpp.i
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Game.cpp > CMakeFiles\SFMLPractice.dir\src\Game.cpp.i
 
 CMakeFiles/SFMLPractice.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SFMLPractice.dir/src/Game.cpp.s"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Game.cpp -o CMakeFiles\SFMLPractice.dir\src\Game.cpp.s
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Game.cpp -o CMakeFiles\SFMLPractice.dir\src\Game.cpp.s
 
 CMakeFiles/SFMLPractice.dir/src/Main.cpp.obj: CMakeFiles/SFMLPractice.dir/flags.make
 CMakeFiles/SFMLPractice.dir/src/Main.cpp.obj: CMakeFiles/SFMLPractice.dir/includes_CXX.rsp
-CMakeFiles/SFMLPractice.dir/src/Main.cpp.obj: C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/src/Main.cpp
+CMakeFiles/SFMLPractice.dir/src/Main.cpp.obj: C:/Users/terra/Downloads/Projects/repos/SFMLPractice/src/Main.cpp
 CMakeFiles/SFMLPractice.dir/src/Main.cpp.obj: CMakeFiles/SFMLPractice.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SFMLPractice.dir/src/Main.cpp.obj"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLPractice.dir/src/Main.cpp.obj -MF CMakeFiles\SFMLPractice.dir\src\Main.cpp.obj.d -o CMakeFiles\SFMLPractice.dir\src\Main.cpp.obj -c C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SFMLPractice.dir/src/Main.cpp.obj"
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLPractice.dir/src/Main.cpp.obj -MF CMakeFiles\SFMLPractice.dir\src\Main.cpp.obj.d -o CMakeFiles\SFMLPractice.dir\src\Main.cpp.obj -c C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Main.cpp
 
 CMakeFiles/SFMLPractice.dir/src/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SFMLPractice.dir/src/Main.cpp.i"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Main.cpp > CMakeFiles\SFMLPractice.dir\src\Main.cpp.i
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Main.cpp > CMakeFiles\SFMLPractice.dir\src\Main.cpp.i
 
 CMakeFiles/SFMLPractice.dir/src/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SFMLPractice.dir/src/Main.cpp.s"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Main.cpp -o CMakeFiles\SFMLPractice.dir\src\Main.cpp.s
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Main.cpp -o CMakeFiles\SFMLPractice.dir\src\Main.cpp.s
 
 CMakeFiles/SFMLPractice.dir/src/Misc.cpp.obj: CMakeFiles/SFMLPractice.dir/flags.make
 CMakeFiles/SFMLPractice.dir/src/Misc.cpp.obj: CMakeFiles/SFMLPractice.dir/includes_CXX.rsp
-CMakeFiles/SFMLPractice.dir/src/Misc.cpp.obj: C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/src/Misc.cpp
+CMakeFiles/SFMLPractice.dir/src/Misc.cpp.obj: C:/Users/terra/Downloads/Projects/repos/SFMLPractice/src/Misc.cpp
 CMakeFiles/SFMLPractice.dir/src/Misc.cpp.obj: CMakeFiles/SFMLPractice.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SFMLPractice.dir/src/Misc.cpp.obj"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLPractice.dir/src/Misc.cpp.obj -MF CMakeFiles\SFMLPractice.dir\src\Misc.cpp.obj.d -o CMakeFiles\SFMLPractice.dir\src\Misc.cpp.obj -c C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Misc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SFMLPractice.dir/src/Misc.cpp.obj"
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLPractice.dir/src/Misc.cpp.obj -MF CMakeFiles\SFMLPractice.dir\src\Misc.cpp.obj.d -o CMakeFiles\SFMLPractice.dir\src\Misc.cpp.obj -c C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Misc.cpp
 
 CMakeFiles/SFMLPractice.dir/src/Misc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SFMLPractice.dir/src/Misc.cpp.i"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Misc.cpp > CMakeFiles\SFMLPractice.dir\src\Misc.cpp.i
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Misc.cpp > CMakeFiles\SFMLPractice.dir\src\Misc.cpp.i
 
 CMakeFiles/SFMLPractice.dir/src/Misc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SFMLPractice.dir/src/Misc.cpp.s"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Misc.cpp -o CMakeFiles\SFMLPractice.dir\src\Misc.cpp.s
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Misc.cpp -o CMakeFiles\SFMLPractice.dir\src\Misc.cpp.s
 
 CMakeFiles/SFMLPractice.dir/src/Ship.cpp.obj: CMakeFiles/SFMLPractice.dir/flags.make
 CMakeFiles/SFMLPractice.dir/src/Ship.cpp.obj: CMakeFiles/SFMLPractice.dir/includes_CXX.rsp
-CMakeFiles/SFMLPractice.dir/src/Ship.cpp.obj: C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/src/Ship.cpp
+CMakeFiles/SFMLPractice.dir/src/Ship.cpp.obj: C:/Users/terra/Downloads/Projects/repos/SFMLPractice/src/Ship.cpp
 CMakeFiles/SFMLPractice.dir/src/Ship.cpp.obj: CMakeFiles/SFMLPractice.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SFMLPractice.dir/src/Ship.cpp.obj"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLPractice.dir/src/Ship.cpp.obj -MF CMakeFiles\SFMLPractice.dir\src\Ship.cpp.obj.d -o CMakeFiles\SFMLPractice.dir\src\Ship.cpp.obj -c C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Ship.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SFMLPractice.dir/src/Ship.cpp.obj"
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLPractice.dir/src/Ship.cpp.obj -MF CMakeFiles\SFMLPractice.dir\src\Ship.cpp.obj.d -o CMakeFiles\SFMLPractice.dir\src\Ship.cpp.obj -c C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Ship.cpp
 
 CMakeFiles/SFMLPractice.dir/src/Ship.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SFMLPractice.dir/src/Ship.cpp.i"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Ship.cpp > CMakeFiles\SFMLPractice.dir\src\Ship.cpp.i
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Ship.cpp > CMakeFiles\SFMLPractice.dir\src\Ship.cpp.i
 
 CMakeFiles/SFMLPractice.dir/src/Ship.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SFMLPractice.dir/src/Ship.cpp.s"
-	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\src\Ship.cpp -o CMakeFiles\SFMLPractice.dir\src\Ship.cpp.s
+	C:\msys64\mingw32\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\terra\Downloads\Projects\repos\SFMLPractice\src\Ship.cpp -o CMakeFiles\SFMLPractice.dir\src\Ship.cpp.s
 
 # Object files for target SFMLPractice
 SFMLPractice_OBJECTS = \
@@ -186,22 +186,22 @@ SFMLPractice_OBJECTS = \
 # External object files for target SFMLPractice
 SFMLPractice_EXTERNAL_OBJECTS =
 
-C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.obj
-C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/src/Character.cpp.obj
-C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/src/CharacterContainer.cpp.obj
-C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/src/Game.cpp.obj
-C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/src/Main.cpp.obj
-C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/src/Misc.cpp.obj
-C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/src/Ship.cpp.obj
-C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/build.make
-C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/linkLibs.rsp
-C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/objects1.rsp
-C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\bin\SFMLPractice.exe"
+C:/Users/terra/Downloads/Projects/repos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/src/Bullet.cpp.obj
+C:/Users/terra/Downloads/Projects/repos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/src/Character.cpp.obj
+C:/Users/terra/Downloads/Projects/repos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/src/CharacterContainer.cpp.obj
+C:/Users/terra/Downloads/Projects/repos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/src/Game.cpp.obj
+C:/Users/terra/Downloads/Projects/repos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/src/Main.cpp.obj
+C:/Users/terra/Downloads/Projects/repos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/src/Misc.cpp.obj
+C:/Users/terra/Downloads/Projects/repos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/src/Ship.cpp.obj
+C:/Users/terra/Downloads/Projects/repos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/build.make
+C:/Users/terra/Downloads/Projects/repos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/linkLibs.rsp
+C:/Users/terra/Downloads/Projects/repos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/objects1.rsp
+C:/Users/terra/Downloads/Projects/repos/SFMLPractice/bin/SFMLPractice.exe: CMakeFiles/SFMLPractice.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable C:\Users\terra\Downloads\Projects\repos\SFMLPractice\bin\SFMLPractice.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SFMLPractice.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/SFMLPractice.dir/build: C:/Users/terra/Downloads/Projects/repos/VSCodeRepos/SFMLPractice/bin/SFMLPractice.exe
+CMakeFiles/SFMLPractice.dir/build: C:/Users/terra/Downloads/Projects/repos/SFMLPractice/bin/SFMLPractice.exe
 .PHONY : CMakeFiles/SFMLPractice.dir/build
 
 CMakeFiles/SFMLPractice.dir/clean:
@@ -209,6 +209,6 @@ CMakeFiles/SFMLPractice.dir/clean:
 .PHONY : CMakeFiles/SFMLPractice.dir/clean
 
 CMakeFiles/SFMLPractice.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\Build C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\Build C:\Users\terra\Downloads\Projects\repos\VSCodeRepos\SFMLPractice\Build\CMakeFiles\SFMLPractice.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\terra\Downloads\Projects\repos\SFMLPractice C:\Users\terra\Downloads\Projects\repos\SFMLPractice C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Build C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Build C:\Users\terra\Downloads\Projects\repos\SFMLPractice\Build\CMakeFiles\SFMLPractice.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SFMLPractice.dir/depend
 

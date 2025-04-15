@@ -4,7 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:\\SFML-2.6.1\\MinGW - 13.1.0 (32 bit)\\include"
+                "C:\\SFML-2.6.1\\MinGW (32 bit)\\include"
             ],
             "defines": [
                 "_DEBUG",
