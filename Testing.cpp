@@ -1,7 +1,7 @@
 #ifndef TESTING_CPP
 #define TESTING_CPP
 
-#include "Game.h"
+#include "src/Game.h"
 
 using namespace sf;
 
@@ -12,7 +12,7 @@ int main() {
 	RenderWindow window(VideoMode(1920, 1080), "SFML Practice 2", Style::Fullscreen);
 	window.setFramerateLimit(60);
 
-	Game::Character gameChar("Sprites/Ship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png", 100.f, Vector2f(500.f, 500.f), 0.5f);
+	Game::Character gameChar("Sprites/Ship/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png", 100.f, Vector2f(500.f, 500.f), 0.5f, false);
 
 	Game::Character lol;
 
