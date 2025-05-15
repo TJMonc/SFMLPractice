@@ -4,10 +4,9 @@ set(CMAKE_CXX_STANDARD 20)
 
 project(SFMLPractice)
 
-
 file(GLOB SOURCES "src/*.cpp")
 option(BUILD_SHARED_LIBS "Build shared libraries" ON)
-include_directories("C:/SFML-2.6.1/MinGW (32 bit)/include" "src")
+include_directories("C:/SFML-2.6.1/MinGW (32 bit)/include" "C:/Users/terra/Downloads/Projects/Libraries/MinGW/MiscLib/include" "src")
 
 if(MSVC)
 	link_directories("C:/SFML-2.6.1/Visual Stuio (32 bit)/lib")
@@ -16,8 +15,8 @@ if(MSVC)
 	add_executable(${PROJECT_NAME} WIN32  ${SOURCES})
 	target_link_libraries(${PROJECT_NAME} sfml-graphics.lib sfml-window.lib sfml-audio.lib sfml-main.lib sfml-network.lib openal32.lib sfml-system.lib)
 else()
-	link_directories("C:/SFML-2.6.1/MinGW (32 bit)/lib")
+	link_directories("C:/SFML-2.6.1/MinGW (32 bit)/lib" "C:/Users/terra/Downloads/Projects/Libraries/MinGW/MiscLib/lib")
 	set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
 	add_executable(${PROJECT_NAME} WIN32 ${SOURCES})
-	target_link_libraries(${PROJECT_NAME} libsfml-graphics.a libsfml-window.a libsfml-audio.a libsfml-main.a libsfml-network.a libopenal32.a libsfml-system.a)
+	target_link_libraries(${PROJECT_NAME} libMisc.a libsfml-graphics.a libsfml-window.a libsfml-audio.a libsfml-main.a libsfml-network.a libopenal32.a libsfml-system.a)
 endif()
