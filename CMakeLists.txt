@@ -7,7 +7,7 @@ project(SFMLPractice)
 
 file(GLOB SOURCES "src/*.cpp")
 option(BUILD_SHARED_LIBS "Build shared libraries" ON)
-include_directories("C:/SFML-2.6.1/MinGW (32 bit)/include")
+include_directories("C:/SFML-2.6.1/MinGW (32 bit)/include" "src")
 
 if(MSVC)
 	link_directories("C:/SFML-2.6.1/Visual Stuio (32 bit)/lib")
