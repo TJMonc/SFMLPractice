@@ -1,22 +1,40 @@
 cmake_minimum_required(VERSION 3.26)
-add_definitions(-std=c++20)
-set(CMAKE_CXX_STANDARD 20)
-
 project(SFMLPractice)
+include(FetchContent)
+
+option(BUILD_SHARED_LIBS "Build shared libraries" ON)
+set(FETCHCONTENT_BASE_DIR ${CMAKE_SOURCE_DIR}/deps)
+set(BIN_DIR ${CMAKE_SOURCE_DIR}/bin)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${BIN_DIR})
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${BIN_DIR})
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${FETCHCONTENT_BASE_DIR}/lib)
+
+set(SFML_INCLUDE_DIR ${FETCHCONTENT_BASE_DIR}/sfml-src/include)
+
+set(INCLUDE_DIR ${SFML_INCLUDE_DIR})
+set(LINK_DIR ${CMAKE_ARCHIVE_OUTPUT_DIRECTORY})
+set(LINKED_LIBS sfml-graphics sfml-window sfml-audio sfml-network sfml-system)
+set(COMPILE_OPTIONS -std=c++20 -O3 -Werror -Wno-trigraphs)
+
+FetchContent_Declare(
+	SFML
+	GIT_REPOSITORY https://github.com/SFML/SFML.git
+	GIT_TAG 2.6.1
+)
+
+
+
+FetchContent_MakeAvailable(SFML)
 
 file(GLOB SOURCES "src/*.cpp")
-option(BUILD_SHARED_LIBS "Build shared libraries" ON)
-include_directories("C:/SFML-2.6.1/MinGW (32 bit)/include" "C:/Users/terra/Downloads/Projects/Libraries/MinGW/MiscLib/include" "src")
+add_executable(shipGame WIN32 ${SOURCES})
 
-if(MSVC)
-	link_directories("C:/SFML-2.6.1/Visual Stuio (32 bit)/lib")
-	set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/MSVC)
-	set(VS_DEBUGGER_WORKING_DIRECTORY ${CMAKE_BINARY_DIR})
-	add_executable(${PROJECT_NAME} WIN32  ${SOURCES})
-	target_link_libraries(${PROJECT_NAME} sfml-graphics.lib sfml-window.lib sfml-audio.lib sfml-main.lib sfml-network.lib openal32.lib sfml-system.lib)
-else()
-	link_directories("C:/SFML-2.6.1/MinGW (32 bit)/lib" "C:/Users/terra/Downloads/Projects/Libraries/MinGW/MiscLib/lib")
-	set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
-	add_executable(${PROJECT_NAME} WIN32 ${SOURCES})
-	target_link_libraries(${PROJECT_NAME} libMisc.a libsfml-graphics.a libsfml-window.a libsfml-audio.a libsfml-main.a libsfml-network.a libopenal32.a libsfml-system.a)
-endif()
+target_compile_options(shipGame PRIVATE ${COMPILE_OPTIONS})
+target_include_directories(shipGame PRIVATE ${INCLUDE_DIR})
+target_link_directories(shipGame PRIVATE ${LINK_DIR})
+target_link_libraries(shipGame ${LINKED_LIBS})
+
+set_target_properties(sfml-graphics sfml-window sfml-audio sfml-network sfml-system 
+PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
+add_dependencies(shipGame sfml-graphics sfml-window sfml-audio sfml-network sfml-system)

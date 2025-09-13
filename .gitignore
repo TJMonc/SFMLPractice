@@ -1,3 +1,6 @@
 /.vscode
 
-/Build
+/build
+deps/
+bin/*.dll
+bin/*.exe

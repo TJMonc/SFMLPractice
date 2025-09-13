@@ -79,7 +79,7 @@ bool Game::CharacterContainer::initialize() {
 			}
 		}
 	}
-
+	return false;
 }
 
 bool Game::CharacterContainer::initialize(const Character aCharacter) {
